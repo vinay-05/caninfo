@@ -1,0 +1,77 @@
+header, footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    border: solid 1px black;
+    background-color: lightgray;
+    margin: 0 5px;
+}
+
+footer{
+    padding: 10px;
+    border-radius: 3px;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    background-color:rgb(41, 139, 236);
+}
+a {
+    color:rgb(41, 139, 236) ;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+#results {
+    padding: 2px;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+.form {
+    padding: 2px;
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bimage {
+    border: solid 1px darkgrey; 
+    border-radius: 2px;
+    
+}
+#main {
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    color: #202020;
+    margin: 20px 5px;
+    padding: 5px;
+}
+#main label {
+    font-weight: bold;
+}
+#main input[type=text], 
+#main select,
+#main input[type=password] {
+    width: 150px;
+}
+#main input[type=submit] {
+    background-color:rgb(41, 139, 236);
+    color: white;
+    border-radius: 15px;
+    padding: 3px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.container {
+    width: 989px;
+    margin: 0 auto;
+    background-color: white;
+}
+header nav {
+    float: right;
+    margin: 10px;
+}
+header nav li {
+    display: inline;
+    margin: 10px;
+}
